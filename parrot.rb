@@ -3,7 +3,6 @@
 require "pry"
 
 def parrot(sound = "Squawk!")
-  binding.pry 
   puts sound
   return sound
 end
